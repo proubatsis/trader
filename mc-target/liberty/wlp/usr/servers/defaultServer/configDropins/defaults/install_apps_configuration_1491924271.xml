@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<server>
-    <webApplication id="trader" location="trader-1.0-SNAPSHOT.war" name="trader"/>
-</server>
