@@ -1,0 +1,18 @@
+********************************************************************************
+product = WebSphere Application Server 18.0.0.2 (wlp-1.0.21.cl180220180619-0403)
+wlp.install.dir = /opt/ibm/wlp/
+server.config.dir = /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/
+java.home = /root/java/jre
+java.version = 1.8.0_171
+java.runtime = Java(TM) SE Runtime Environment (8.0.5.17 - pxa6480sr5fp17-20180627_01(SR5 FP17))
+os = Linux (3.10.0-862.9.1.el7.x86_64; amd64) (en_US)
+process = 322@mc-trader-3e9364b0-903a-11e8-a7ba-idc-646bdd9c6f-g96g6
+********************************************************************************
+[7/30/18 15:12:06:966 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[7/30/18 15:12:07:595 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.2/lafiles/en.html
+[7/30/18 15:12:48:168 UTC] 0000001d com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[7/30/18 15:12:53:532 UTC] 0000001d com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/keystore.xml
+[7/30/18 15:13:29:534 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 91.937 seconds
+[7/30/18 15:13:29:786 UTC] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[7/30/18 15:14:08:400 UTC] 0000001d com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[7/30/18 15:14:20:971 UTC] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.

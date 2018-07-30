@@ -1,0 +1,15 @@
+Launching defaultServer (WebSphere Application Server 18.0.0.2/wlp-1.0.21.cl180220180619-0403) on IBM J9 VM, version 8.0.5.17 - pxa6480sr5fp17-20180627_01(SR5 FP17) (en_US)
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+[AUDIT   ] CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.2/lafiles/en.html
+[AUDIT   ] CWWKG0093A: Processing configuration drop-ins resource: /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[AUDIT   ] CWWKG0093A: Processing configuration drop-ins resource: /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/keystore.xml
+[INFO    ] CWWKE0002I: The kernel started after 91.937 seconds
+[INFO    ] CWWKF0007I: Feature update started.
+[INFO    ] CWWKS0007I: The security service is starting...
+[INFO    ] CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+JVMSHRC179E The ROMClass segment has been corrupted. Error reading ROMClass at 0x00007F53FCE14300
+JVMDUMP039I Processing dump event "corruptcache", detail "" at 2018/07/30 15:14:22 - please wait.
+JVMDUMP032I JVM requested System dump using '/shared-workspace/trader/mc-target/liberty/wlp/usr/servers/defaultServer/core.20180730.151422.322.0001.dmp' in response to an event
+JVMPORT030W /proc/sys/kernel/core_pattern setting "|/usr/libexec/abrt-hook-ccpp %s %c %p %u %g %t e %P %I %h" specifies that the core dump is to be piped to an external program.  Attempting to rename either core or core.407.
+
+JVMDUMP012E Error in System dump: The core file created by child process with pid = 407 was not found. Expected to find core file with name "/shared-workspace/trader/mc-target/liberty/wlp/usr/servers/defaultServer/core.407"
