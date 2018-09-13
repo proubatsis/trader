@@ -34,12 +34,11 @@
 
     <sslDefault sslRef="RpSSLConfig" />
 
-    <!-- <ssl id="RpSSLConfig" keyStoreRef="defaultKeyStore" trustStoreRef="validationKeystore" /> -->
     <ssl id="RpSSLConfig" keyStoreRef="defaultKeyStore" />
 
     <jwtSso jwtBuilderRef="myBuilder"/>
-    <jwtBuilder id="myBuilder" keyStoreRef="defaultKeyStore" keyAlias="default" issuer="http://stock-trader.ibm.com" audiences="stock-trader" />
-    <mpJwt id="myMpJwt" audiences="stock-trader" issuer="http://stock-trader.ibm.com" keyName="default" ignoreApplicationAuthMethod="false"/>
+    <jwtBuilder id="myBuilder" keyStoreRef="defaultKeyStore" keyAlias="default" issuer="${env.JWT_ISSUER}" audiences="${env.JWT_AUDIENCE}" />
+    <mpJwt id="myMpJwt" audiences="${env.JWT_AUDIENCE}" issuer="${env.JWT_ISSUER}" keyName="default" ignoreApplicationAuthMethod="false"/>
 
     <basicRegistry id="basic" realm="BasicRegistry">
         <user name="admin" password="admin"/>
