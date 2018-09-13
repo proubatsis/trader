@@ -1,0 +1,8 @@
+kubectl delete -f manifests/
+mvn package && \
+docker build -t trader:latest . && \
+docker tag trader:latest mycluster.icp:8500/default/trader:pr && \
+docker push mycluster.icp:8500/default/trader:pr && \
+sleep 3 && \
+kubectl apply -f manifests/
+
